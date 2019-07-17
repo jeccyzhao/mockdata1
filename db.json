@@ -1,0 +1,12 @@
+{
+  "trace": [
+	{ "id": 1, "member": "闻染", "garage": "沙河小区一期", "serialNumber": "ABex324x232", "type": 1, "time": "2019-09-02 09:15:14" },
+	{ "id": 1, "member": "李必", "garage": "普河小区四号", "serialNumber": "we31x", "type": 1, "time": "2019-09-02 09:15:14" },
+	{ "id": 1, "member": "李必", "garage": "普河小区四号", "serialNumber": "we31x", "type": 2, "time": "2019-09-02 09:15:14" },
+	{ "id": 1, "member": "闻染", "garage": "沙河小区一期", "serialNumber": "ABex324x232", "type": 2, "time": "2019-09-02 09:15:14" },
+	{ "id": 1, "member": "闻染", "garage": "沙河小区一期", "serialNumber": "ABex324x232", "type": 1, "time": "2019-09-02 09:15:14" },
+	{ "id": 1, "member": "李必", "garage": "普河小区二号", "serialNumber": "2343xbnw", "type": 1, "time": "2019-09-02 09:15:14" },
+	{ "id": 1, "member": "李必", "garage": "普河小区二号", "serialNumber": "2343xbnw", "type": 2, "time": "2019-09-02 09:15:14" },
+	{ "id": 1, "member": "闻染", "garage": "沙河小区一期", "serialNumber": "ABex324x232", "type": 2, "time": "2019-09-02 09:15:14" }
+  ]
+}
