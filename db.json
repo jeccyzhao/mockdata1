@@ -1,25 +1,28 @@
 {
   "trace": [
 	{ "id": 1, "member": "闻染", "garage": "沙河小区一期", "serialNumber": "ABex324x232", "type": 1, "time": "2019-09-02 09:15:14" },
-	{ "id": 1, "member": "李必", "garage": "普河小区四号", "serialNumber": "we31x", "type": 1, "time": "2019-09-02 09:15:14" },
-	{ "id": 1, "member": "李必", "garage": "普河小区四号", "serialNumber": "we31x", "type": 2, "time": "2019-09-02 09:15:14" },
-	{ "id": 1, "member": "闻染", "garage": "沙河小区一期", "serialNumber": "ABex324x232", "type": 2, "time": "2019-09-02 09:15:14" },
-	{ "id": 1, "member": "闻染", "garage": "沙河小区一期", "serialNumber": "ABex324x232", "type": 1, "time": "2019-09-02 09:15:14" },
-	{ "id": 1, "member": "李必", "garage": "普河小区二号", "serialNumber": "2343xbnw", "type": 1, "time": "2019-09-02 09:15:14" },
-	{ "id": 1, "member": "李必", "garage": "普河小区二号", "serialNumber": "2343xbnw", "type": 2, "time": "2019-09-02 09:15:14" },
-	{ "id": 1, "member": "闻染", "garage": "沙河小区一期", "serialNumber": "ABex324x232", "type": 2, "time": "2019-09-02 09:15:14" }
+	{ "id": 2, "member": "李必", "garage": "普河小区四号", "serialNumber": "we31x", "type": 1, "time": "2019-09-02 09:15:14" },
+	{ "id": 3, "member": "李必", "garage": "普河小区四号", "serialNumber": "we31x", "type": 2, "time": "2019-09-02 09:15:14" },
+	{ "id": 4, "member": "闻染", "garage": "沙河小区一期", "serialNumber": "ABex324x232", "type": 2, "time": "2019-09-02 09:15:14" },
+	{ "id": 5, "member": "闻染", "garage": "沙河小区一期", "serialNumber": "ABex324x232", "type": 1, "time": "2019-09-02 09:15:14" },
+	{ "id": 6, "member": "李必", "garage": "普河小区二号", "serialNumber": "2343xbnw", "type": 1, "time": "2019-09-02 09:15:14" },
+	{ "id": 7, "member": "李必", "garage": "普河小区二号", "serialNumber": "2343xbnw", "type": 2, "time": "2019-09-02 09:15:14" },
+	{ "id": 8, "member": "闻染", "garage": "沙河小区一期", "serialNumber": "ABex324x232", "type": 2, "time": "2019-09-02 09:15:14" }
   ],
   "menu": [
-	{ "id": 1, "parent": "", "title": "仪表监控", "icon": "fa-tachometer-alt", "router": "Dashboard", "visible": 1, "order": 1 },
-	{ "id": 1, "parent": "", "title": "会员管理", "icon": "fa-user", "router": "UserList", "visible": 1, "order": 1 },
-	{ "id": 1, "parent": "", "title": "车辆管理", "icon": "fa-motorcycle", "router": "", "visible": 1, "order": 1 },
-	{ "id": 1, "parent": "车辆管理", "title": "车辆列表", "icon": "fa-list-alt", "router": "VehicleList", "visible": 1, "order": 1 },
-	{ "id": 1, "parent": "车辆管理", "title": "出入记录", "icon": "fa-list", "router": "VehicleTraceList", "visible": 1, "order": 2 },
-	{ "id": 1, "parent": "", "title": "财务管理", "icon": "fa-donate", "router": "", "visible": 1, "order": 1 },
-	{ "id": 1, "parent": "财务管理", "title": "充值记录", "icon": "fa-hand-holding-usd", "router": "ReceiptList", "visible": 1, "order": 1 },
-	{ "id": 1, "parent": "", "title": "系统管理", "icon": "fa-cogs", "router": "", "visible": 1, "order": 1 },
-	{ "id": 1, "parent": "系统管理", "title": "菜单管理", "icon": "fa-sitemap", "router": "SystemMenu", "visible": 1, "order": 1 },
-	{ "id": 1, "parent": "系统管理", "title": "权限管理", "icon": "fa-user-cog", "router": "SystemPermission", "visible": 1, "order": 1 },
-	{ "id": 1, "parent": "系统管理", "title": "系统配置", "icon": "fa-cog", "router": "SystemConfig", "visible": 1, "order": 1 }
+	{ "id": 1, "parent": "", "title": "仪表监控", "icon": "fa-tachometer-alt", "router": "/dashboard", "visible": 1, "order": 1 },
+	{ "id": 2, "parent": "", "title": "车库管理", "icon": "fa-warehouse", "router": "", "visible": 1, "order": 1 },
+	{ "id": 3, "parent": "车库管理", "title": "车库列表", "icon": "fa-list-alt", "router": "/garage/list", "visible": 1, "order": 1 },
+	{ "id": 4, "parent": "车库管理", "title": "终端日志", "icon": "fa-tablet-alt", "router": "/terminal", "visible": 1, "order": 1 },
+	{ "id": 5, "parent": "", "title": "会员管理", "icon": "fa-user", "router": "/user/list", "visible": 1, "order": 1 },
+	{ "id": 6, "parent": "", "title": "车辆管理", "icon": "fa-motorcycle", "router": "", "visible": 1, "order": 1 },
+	{ "id": 7, "parent": "车辆管理", "title": "车辆列表", "icon": "fa-list-alt", "router": "/vehicle/list", "visible": 1, "order": 1 },
+	{ "id": 8, "parent": "车辆管理", "title": "出入记录", "icon": "fa-list", "router": "/vehicle/trace", "visible": 1, "order": 2 },
+	{ "id": 9, "parent": "", "title": "财务管理", "icon": "fa-donate", "router": "", "visible": 1, "order": 1 },
+	{ "id": 10, "parent": "财务管理", "title": "充值记录", "icon": "fa-hand-holding-usd", "router": "/finance/receipt", "visible": 1, "order": 1 },
+	{ "id": 11, "parent": "", "title": "系统管理", "icon": "fa-cogs", "router": "", "visible": 1, "order": 1 },
+	{ "id": 12, "parent": "系统管理", "title": "菜单管理", "icon": "fa-sitemap", "router": "/system/menu", "visible": 1, "order": 1 },
+	{ "id": 13, "parent": "系统管理", "title": "权限管理", "icon": "fa-user-cog", "router": "/system/permission", "visible": 1, "order": 1 },
+	{ "id": 14, "parent": "系统管理", "title": "系统配置", "icon": "fa-cog", "router": "/system/config", "visible": 1, "order": 1 }
   ]
 }
