@@ -8,5 +8,18 @@
 	{ "id": 1, "member": "李必", "garage": "普河小区二号", "serialNumber": "2343xbnw", "type": 1, "time": "2019-09-02 09:15:14" },
 	{ "id": 1, "member": "李必", "garage": "普河小区二号", "serialNumber": "2343xbnw", "type": 2, "time": "2019-09-02 09:15:14" },
 	{ "id": 1, "member": "闻染", "garage": "沙河小区一期", "serialNumber": "ABex324x232", "type": 2, "time": "2019-09-02 09:15:14" }
+  ],
+  "menu": [
+	{ "id": 1, "parent": "", "title": "仪表监控", "icon": "fa-tachometer-alt", "router": "Dashboard", "visible": 1, "order": 1 },
+	{ "id": 1, "parent": "", "title": "会员管理", "icon": "fa-user", "router": "UserList", "visible": 1, "order": 1 },
+	{ "id": 1, "parent": "", "title": "车辆管理", "icon": "fa-motorcycle", "router": "", "visible": 1, "order": 1 },
+	{ "id": 1, "parent": "车辆管理", "title": "车辆列表", "icon": "fa-list-alt", "router": "VehicleList", "visible": 1, "order": 1 },
+	{ "id": 1, "parent": "车辆管理", "title": "出入记录", "icon": "fa-list", "router": "VehicleTraceList", "visible": 1, "order": 2 },
+	{ "id": 1, "parent": "", "title": "财务管理", "icon": "fa-donate", "router": "", "visible": 1, "order": 1 },
+	{ "id": 1, "parent": "财务管理", "title": "充值记录", "icon": "fa-hand-holding-usd", "router": "ReceiptList", "visible": 1, "order": 1 },
+	{ "id": 1, "parent": "", "title": "系统管理", "icon": "fa-cogs", "router": "", "visible": 1, "order": 1 },
+	{ "id": 1, "parent": "系统管理", "title": "菜单管理", "icon": "fa-sitemap", "router": "SystemMenu", "visible": 1, "order": 1 },
+	{ "id": 1, "parent": "系统管理", "title": "权限管理", "icon": "fa-user-cog", "router": "SystemPermission", "visible": 1, "order": 1 },
+	{ "id": 1, "parent": "系统管理", "title": "系统配置", "icon": "fa-cog", "router": "SystemConfig", "visible": 1, "order": 1 }
   ]
 }
